@@ -117,7 +117,7 @@ public class SafeInput {
     }
     public static String prettyHeader(String msg) {
         //Example: PRO-Programmer = 14 - 54 = 40 / 2 = 20 = padding
-        int padding = ((54 - msg.length()) / 2);
+        int padding = ((52 - msg.length()) / 2);
 
         for (int a = 0; a < 60; a++) {      //prints top row
             System.out.print("*");
